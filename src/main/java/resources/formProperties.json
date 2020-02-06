@@ -1,0 +1,22 @@
+{ 
+   "mandatoryFields":[ 
+      { 
+         "name":"dueDate",
+         "type":"date",
+         "label":"Due Date"
+      },{
+          "name":"priority",
+          "type":"textfield",
+          "label":"Priority"
+      },{
+          "name":"description",
+          "type":"textfield",
+          "label":"Description"
+      }
+   ],
+   "userListTargets":[ 
+      { 
+         "target":"Assignee"
+      }
+   ]
+}
